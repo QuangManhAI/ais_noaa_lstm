@@ -1,0 +1,7 @@
+# .gitignore
+lib_venv/
+venv/
+__pycache__/
+*.pyc
+*.pkl
+*.parquet

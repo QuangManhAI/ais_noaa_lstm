@@ -1,0 +1,59 @@
+# Core scientific stack
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+tqdm
+sql
+
+# PyTorch with CUDA (cài riêng bằng lệnh bên dưới)
+# torch==2.3.0+cu121
+# torchvision==0.18.0+cu121
+# torchaudio==2.3.0+cu121
+# Đừng dùng pip install từ file cho 3 dòng trên – dùng lệnh riêng để hỗ trợ GPU
+
+# Geospatial / AIS data
+geopandas
+shapely
+fiona
+pyproj
+rtree
+
+# Visualization & mapping
+folium
+contextily
+plotly
+
+# Dev tools
+jupyter
+ipython
+
+# Optional for large file handling
+pyarrow
+fastparquet
+
+# Optional for HDF5/NetCDF (nếu xử lý dữ liệu biển mở rộng)
+h5py
+netCDF4
+
+# 
+tqdm==4.67.1
+
+#
+folium==0.14.0
+
+#
+pyproj==3.6.1
+
+#
+shap==0.42.1
+
+#
+xgboost==1.7.6
+
+#
+sqlalchemy
+
+# 
+pyodbc
